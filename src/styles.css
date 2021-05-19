@@ -10848,22 +10848,4 @@ MEDIA QUERY
   #objectif ul li {
     width: 100%;
   }
-  /*EXPLORATIONS*/
-  #explorations ul {
-    flex-direction: column;
-    padding-bottom: 0px;
-  }
-  #explorations ul li {
-    margin-bottom: 35px;
-    width: 100%;
-  }
-  /*SPONSORS*/
-  #spon ul {
-    flex-direction: column;
-    padding-bottom: 0px;
-  }
-  #spon ul li {
-    margin-bottom: 35px;
-    width: 50%
-  }
 }

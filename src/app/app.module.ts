@@ -10,6 +10,7 @@ import { ErrorComponent } from './error/error.component';
 import {RouterModule, Routes} from "@angular/router";
 import { HomeComponent } from './home/home.component';
 import { ObjectifComponent } from './objectif/objectif.component';
+import { CommentComponent } from './comment/comment.component';
 
 const routes: Routes = [
   /*{path: 'exemple', component: ExempleComponent},
@@ -25,7 +26,8 @@ const routes: Routes = [
     HeadComponent,
     ErrorComponent,
     HomeComponent,
-    ObjectifComponent
+    ObjectifComponent,
+    CommentComponent
 
   ],
   imports: [

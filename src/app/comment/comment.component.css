@@ -1,0 +1,15 @@
+
+#comment {
+  background: linear-gradient(#5e81ff, #002261);
+  padding: 50px 0;
+  color: white;
+}
+
+#comment ul {
+  padding: 0;
+}
+
+#comment ul li {
+  text-align: center;
+  margin: 80px auto;
+}
