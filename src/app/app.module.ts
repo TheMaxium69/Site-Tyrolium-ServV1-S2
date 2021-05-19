@@ -11,6 +11,7 @@ import {RouterModule, Routes} from "@angular/router";
 import { HomeComponent } from './home/home.component';
 import { ObjectifComponent } from './objectif/objectif.component';
 import { CommentComponent } from './comment/comment.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
   /*{path: 'exemple', component: ExempleComponent},
@@ -27,7 +28,8 @@ const routes: Routes = [
     ErrorComponent,
     HomeComponent,
     ObjectifComponent,
-    CommentComponent
+    CommentComponent,
+    FormComponent
 
   ],
   imports: [
