@@ -1,0 +1,21 @@
+
+#objectif h2 {
+  margin-top: 60px;
+  color:  rgb(49, 57, 173);
+}
+#objectif ul {
+  padding: 50px 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+}
+#objectif ul li {
+  margin: 10px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+#objectif ul li h3{
+  font-weight: bold;
+  padding: 20px;
+}

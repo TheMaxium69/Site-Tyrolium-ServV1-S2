@@ -1,0 +1,12 @@
+/*FOOTER*/
+footer {
+  background: black;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+footer img {
+  height: 45px;
+  width: auto;
+}

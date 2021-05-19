@@ -4,17 +4,33 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
+import { FooterComponent } from './footer/footer.component';
+import { HeadComponent } from './head/head.component';
+import { ErrorComponent } from './error/error.component';
+import {RouterModule, Routes} from "@angular/router";
+import { HomeComponent } from './home/home.component';
 
+const routes: Routes = [
+  /*{path: 'exemple', component: ExempleComponent},
+  {path: 'del/:id', component: ExempleDelComponent},
+  {path: 'home', component: HomeComponent },*/
+  {path: '', component: HomeComponent },
+  {path: '**', component: ErrorComponent },
+];
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    HeadComponent,
+    ErrorComponent,
+    HomeComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
-
+    HttpClientModule,
+    RouterModule.forRoot(routes),
   ],
   providers: [],
   bootstrap: [AppComponent]
