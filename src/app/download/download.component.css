@@ -1,0 +1,44 @@
+
+
+.container {
+  max-width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#programs{
+  display: flex;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  margin-bottom: 100px;
+}
+
+#programs div:first-of-type{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/r.png");
+}
+
+#programs div:last-of-type{
+  background-image:  linear-gradient(rgba(124, 40, 99, 0.5), rgba(124, 40, 99,0.5)), url("/assets/r.png");
+}
+
+#programs div {
+  width: 50%;
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+#programs div h2{
+  text-transform: uppercase;
+}
+
+@media(max-width: 767px) {
+  #programs {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  }
+}
