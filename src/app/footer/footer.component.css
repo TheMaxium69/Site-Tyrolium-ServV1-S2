@@ -1,12 +1,17 @@
-/*FOOTER*/
 footer {
-  background: black;
-  padding: 20px 0;
-  color: white;
+  background-color: black;
+  border-top: 10px solid;
+  border-color: blue;
+  margin-top: 50px;
+  padding: 20px 0 40px;
+}
+footer span{
   text-align: center;
-  display: flex;
 }
 footer img {
-  height: 45px;
-  width: auto;
+  width: 70px;
+}
+
+footer a:hover{
+  color: white;
 }

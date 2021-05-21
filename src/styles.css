@@ -10848,4 +10848,10 @@ MEDIA QUERY
   #objectif ul li {
     width: 100%;
   }
+  #nosreseau ul {
+    flex-direction: column;
+  }
+  #nosreseau ul li {
+    width: 100%;
+  }
 }

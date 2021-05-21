@@ -5,21 +5,22 @@
   margin-left: auto;
   margin-right: auto;
 }
-#programs{
+#download{
   display: flex;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
   margin-bottom: 100px;
 }
 
-#programs div:first-of-type{
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/r.png");
+#download div:first-of-type{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://tyrolium.fr/Contenu/Image/TyroliumSwordBackground.png");
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
 }
 
-#programs div:last-of-type{
-  background-image:  linear-gradient(rgba(124, 40, 99, 0.5), rgba(124, 40, 99,0.5)), url("/assets/r.png");
+#download div:last-of-type{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://tyrolium.fr/Contenu/Image/RhodoniteSwordBackground.png");
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
 }
 
-#programs div {
+#download div {
   width: 50%;
   text-align: center;
   padding: 80px 20px;
@@ -28,12 +29,12 @@
   background-position: center;
 }
 
-#programs div h2{
+#download div h2{
   text-transform: uppercase;
 }
 
 @media(max-width: 767px) {
-  #programs {
+  #download {
     align-items: center;
     width: 100%;
     display: flex;

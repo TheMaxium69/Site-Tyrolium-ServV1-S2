@@ -1,10 +1,20 @@
-
-<article id="programs" class="container">
-  <!--<h2>Téléchargé le launcher</h2>-->
+<div id="téléchargement">
+  <h2>Téléchargement du launcher</h2>
+<article id="download" class="container">
   <div>
     <p>Team Dos</p>
-    <h2>Windows</h2>
-    <button type="button" class="btn btn-primary">Téléchargé (.exe)</button>
+    <h2>Windows <span class="badge bg-light" style="color: black">New</span></h2>
+    <!--<button type="button" class="btn btn-primary">Téléchargé (.exe)</button>-->
+    <s class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Téléchargé (.exe)
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Windows 86x</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Windows 64x</a></li>
+      </ul>
+    </s>
   </div>
   <div>
     <p>Team Unix</p>
@@ -12,3 +22,4 @@
     <button type="button" class="btn btn-primary">Téléchargé (.jar)</button>
   </div>
 </article>
+</div>

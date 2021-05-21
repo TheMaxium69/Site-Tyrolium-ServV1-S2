@@ -13,6 +13,7 @@ import { ObjectifComponent } from './objectif/objectif.component';
 import { CommentComponent } from './comment/comment.component';
 import { FormComponent } from './form/form.component';
 import { DownloadComponent } from './download/download.component';
+import { ReseauComponent } from './reseau/reseau.component';
 
 const routes: Routes = [
   /*{path: 'exemple', component: ExempleComponent},
@@ -31,7 +32,8 @@ const routes: Routes = [
     ObjectifComponent,
     CommentComponent,
     FormComponent,
-    DownloadComponent
+    DownloadComponent,
+    ReseauComponent
 
   ],
   imports: [

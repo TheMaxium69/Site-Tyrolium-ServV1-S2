@@ -13,3 +13,7 @@
   text-align: center;
   margin: 80px auto;
 }
+
+#comment a:hover{
+  color: white;
+}

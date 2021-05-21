@@ -1,0 +1,37 @@
+
+#nosreseau h2 {
+  margin-top: 60px;
+  color:  white;
+}
+#nosreseau ul {
+  padding: 50px 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+}
+#nosreseau ul li {
+  background: linear-gradient(#5e81ff, #002261);
+  margin: 10px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+#nosreseau ul li#discord {
+  background: linear-gradient(#ff5e5e, #970000);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#nosreseau ul li h3{
+  font-weight: bold;
+  padding: 20px;
+}
+
+#nosreseau img.imgRe{
+  width: 50px;
+  height: 50px;
+}
+
+#nosreseau a:hover{
+  color: white;
+}
